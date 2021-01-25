@@ -1,0 +1,9 @@
+{
+  "messaging_type": "RESPONSE",
+  "recipient": {
+    "id": {{ senderId }}
+  },
+  "message": {
+    "text": "{% for result in data['results'] %}- result {{ result }}\n{% endfor %}\nPara baixar um site digite: baixar site\nPara ver um resumo do site digite: resumo site"
+  }
+}
